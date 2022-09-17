@@ -1,0 +1,30 @@
+.Quote {
+    color: white;
+    margin: 150px;
+    width: 50vw;
+}
+
+.Quote > h1 {
+    font-size: 32px;
+}
+.Quote > p {
+    position: relative;
+    margin: 5px;
+    text-align: right;
+    font-size: 24px;
+    right: 80px;
+}
+
+@media only screen and (max-width: 800px){
+    .Quote {
+        width: 90vw;
+        margin: 100px;
+    }
+    .Quote > h1 {
+        font-size: 18px;
+    }
+    .Quote  > p {
+        font-size: 16px;
+        right: 20px;
+    }
+}

@@ -1,0 +1,17 @@
+.Portfolio {
+    color: white;
+    margin: 0px 0px 0px 0px;
+}
+.Portfolio > h1 {
+    margin: 10px;
+}
+.Portfolio > .project-containers {
+    display: flex;
+    width: 75vw;
+    overflow-x: scroll;
+}
+@media only screen and (max-width: 800px) {
+    .Portfolio > .project-containers {
+        width: 100vw;
+    }
+}
